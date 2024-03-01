@@ -1,7 +1,16 @@
+import { useState } from "react";
+import Startgame from "../componet/Startgame";
+import Gameplay from "../componet/Gameplay";
 export default function App() {
+  const [isGameStart, SetisGameStart] = useState(false);
+
+  const Startgametoggle = () => {
+    SetisGameStart((pre) => !pre);
+  };
+
   return (
-    <h1 className="text-3xl font-bold underline bg-red-500 text-center">
-      Hello world!
-    </h1>
+    <section>
+      {isGameStart ? <Gameplay /> : <Startgame toggle={Startgametoggle} />}
+    </section>
   );
 }
