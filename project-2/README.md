@@ -9,6 +9,9 @@
 
 It's a single page application it's has only one page,
 
+![image](https://github.com/Hi-LEO/tailwind/assets/125797501/f5ecb3f5-6ad9-485a-9253-08da586e30d6)
+
+
 How to play dice Game
 Select any number
 
